@@ -19,7 +19,8 @@ body {
 
 /* Container with the background image */
 .container {
-  background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;
+  background: linear-gradient(45deg, rgba(75, 122, 93, 0.7), rgba(0, 0, 0, 0.3)), 
+    url('https://i.postimg.cc/RZS9FzYh/fundo-11.png') no-repeat center center/cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -29,7 +30,7 @@ body {
 /* Content div for text and button */
 .content {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(24, 49, 39, 0.8);
   padding: 20px 40px;
   border-radius: 8px;
 }
@@ -40,7 +41,7 @@ body {
 
 /* Button Styles */
 button {
-  background-color: #ff1b7b;
+  background-color: #365f2c;
   border: none;
   padding: 10px 20px;
   font-size: 1.2em;
@@ -50,7 +51,7 @@ button {
 }
 
 button:hover {
-  background-color: #1ABC9C;
+  background-color: #599287;
 }
 
 /* Footer Styles */
