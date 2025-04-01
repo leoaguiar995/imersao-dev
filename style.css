@@ -25,14 +25,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  padding: 20px;
 }
 
 /* Content div for text and button */
 .content {
   text-align: center;
-  background-color: rgba(24, 49, 39, 0.8);
+  background-color: rgba(24, 49, 39, 0.4);
   padding: 20px 40px;
   border-radius: 8px;
+  margin-left:20px;
+  width:100%;
+  max-width: 500px;
 }
 
 .content h2 {
@@ -44,9 +49,11 @@ button {
   background-color: #365f2c;
   border: none;
   padding: 10px 20px;
+  margin: 10px;
   font-size: 1.2em;
   color: white;
   cursor: pointer;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
